@@ -1,2 +1,16 @@
 install.packages("devtools")
 devtools::install_github("fkeck/subtools")
+??subtools
+require("devtools")
+getwd()
+library(subtools)
+install.packages("tm")
+library(SnowballC)
+library("tm")
+t1 <- read_subtitles("Das_Erste-2019-01-01-ts-0955.stl")
+t1.1 <- read_subtitles("test1.srt")
+t1.2 <- read_subtitles("Game.Of.Thrones.S01E01.1080p.5.1Ch.BluRay.ReEnc-DeeJayAhmed.srt")
+t <- read_subtitles("t1")
+setwd("/Users/TianyiKou/Desktop/dontgetmad2/tt")
+t2 <- read_subtitles_serie("/Users/TianyiKou/Desktop/dontgetmad2/tt")
+?syst
